@@ -1,0 +1,45 @@
+/* Set the font family and font size for the entire page */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+        background-image: url("currencies.jpg");
+        height: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+  }
+  
+  /* Center the content vertically and horizontally */
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Style the button */
+  button {
+    background-color:white;
+    color: black;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin: 15px ;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  /* Style the paragraph */
+  p {
+    margin: 10px ;
+  }
+  
+  /* Style the select */
+  select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1.2rem;
+  }
